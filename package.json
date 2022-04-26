@@ -1,0 +1,17 @@
+{
+  "name": "twitch-autoban",
+  "version": "1.0.0",
+  "description": "A quick bot sweeper for Twitch",
+  "author": "Bruno Marques <bruno@bmarques.net>",
+  "license": "MPL-2.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@twurple/auth": "5.1.4",
+    "@twurple/chat": "5.1.4",
+    "dotenv": "16.0.0",
+    "lodash": "4.17.21"
+  }
+}
